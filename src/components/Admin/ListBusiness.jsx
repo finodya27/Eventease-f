@@ -13,7 +13,7 @@ export default function ListBusiness() {
   useEffect(() => {
     const fetchBusinesses = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/form/verified-businesses');
+        const response = await fetch('https://eventease-b-production.up.railway.app/api/form/verified-businesses');
         if (!response.ok) {
           throw new Error('Failed to fetch verified businesses');
         }

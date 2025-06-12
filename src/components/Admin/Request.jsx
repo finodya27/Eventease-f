@@ -12,7 +12,7 @@ export default function RequestPage() {
   useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/form/submissions');
+        const response = await fetch('https://eventease-b-production.up.railway.app/api/form/submissions');
         if (!response.ok) {
           throw new Error('Failed to fetch submissions');
         }

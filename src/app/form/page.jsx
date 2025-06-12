@@ -76,7 +76,7 @@ export default function BusinessForm() {
 
     try {
       // Send data to backend
-      const response = await fetch("http://localhost:5000/api/form/submit", {
+      const response = await fetch("https://eventease-b-production.up.railway.app/api/form/submit", {
         method: "POST",
         body: form,
       });

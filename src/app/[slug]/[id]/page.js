@@ -24,7 +24,7 @@ const BusinessDetailPage = ({ params }) => {
     const fetchBusinessDetail = async () => {
       try {
         const unwrappedParams = await params;
-        const response = await fetch(`http://localhost:5000/api/form/business/${unwrappedParams.id}`);
+        const response = await fetch(`https://eventease-b-production.up.railway.app/api/form/business/${unwrappedParams.id}`);
         if (!response.ok) {
           throw new Error("Failed to fetch business details");
         }
