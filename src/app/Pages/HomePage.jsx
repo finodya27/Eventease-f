@@ -26,7 +26,7 @@ const HomePage = () => {
                     <h1><span className='text-[#4F9CF9]'>EventEase</span></h1>
                 </div>
                 <p className='mb-6 text-base md:text-lg max-w-prose mx-auto md:mx-0'>
-                    Wujudkan acara impianmu dengan praktis dan cepat bersama EventEase — solusi lengkap yang siap memenuhi semua kebutuhan eventmu.
+                    Wujudkan acara impianmu dengan praktis dan cepat bersama EventEase. Solusi lengkap yang siap memenuhi semua kebutuhan eventmu.
                 </p>
                 <div className='flex justify-center md:justify-start'>
                     <Search />
