@@ -14,7 +14,7 @@ const Page = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('https://eventease-b-production.up.railway.app/api/auth/login', {
+      const response = await fetch('https://clinquant-meringue-2d69a2.netlify.app/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
