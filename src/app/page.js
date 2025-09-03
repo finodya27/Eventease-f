@@ -22,7 +22,7 @@ export default function Home() {
     // Fetch verified businesses
     const fetchBusinesses = async () => {
       try {
-        const response = await fetch("https://eventease-b-production.up.railway.app/api/form/verified-businesses");
+        const response = await fetch("https://clinquant-meringue-2d69a2.netlify.app/api/form/verified-businesses");
         if (!response.ok) {
           throw new Error("Failed to fetch verified businesses");
         }
